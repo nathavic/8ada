@@ -1,0 +1,78 @@
+body {
+    background-color: bisque;
+}
+
+* {
+    margin: 0;
+}
+
+.parrafo {
+    margin: 20px;
+    font-size: 25px;
+    border: 2px solid sienna;
+    background-color: tan;
+}
+
+.principal {
+    color: steelblue;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+p {
+    color: darkred;
+    font-size: 15px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+}
+
+.tarjeta {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    color: darkcyan;
+}
+
+a:visited {
+    color: palevioletred;
+}
+
+a:active {
+    color: plum;
+}
+
+a:hover {
+    background-color: royalblue;
+    color: seashell;
+    border: 3px dotted black;
+}
+
+.pseudo {
+    color: hotpink;
+    font-size: 30px;
+}
+
+.pseudo::selection {
+    background-color: black;
+}
+
+.pseudo::first-letter {
+    font-size: 40px;
+}
+
+span::after {
+    content: "**";
+}

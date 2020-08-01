@@ -1,0 +1,45 @@
+.links-navegacion {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    box-shadow: 0 0 12px 0 rgba(199, 199, 199, 0.25);
+}
+
+.links-navegacion li {
+    margin: 20px;
+}
+
+header {
+    background: #c9a1bd;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+section {
+    background-color: #388697;
+    width: 80%;
+}
+
+.principal {
+    display: flex;
+}
+
+aside {
+    background-color: #d99d1c;
+    width: 20%;
+    height: 500px;
+}
+
+article {
+    width: 300px;
+    background-color: #d93218;
+    margin: 20px;
+}
+
+footer {
+    background: #c7ede4;
+    height: 150px;
+}
